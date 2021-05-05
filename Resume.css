@@ -1,0 +1,122 @@
+body{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(115, 149, 156);
+    color: rgba(255,255,255,0.98);
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體",sans-serif;
+  }
+
+.container{
+    max-width: 750px;
+    justify-content: center;
+}
+
+/** content **/  
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+h2::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 8px;
+    background-color: #FF7168;
+    margin-left: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none
+}
+
+hr{
+    border: none;
+    border-bottom: solid 4px #FF7168;
+    width: 90%;
+    margin-left: 0;
+}
+  
+
+/** botton **/  
+.btn{
+    border: solid 3px #FF7168;
+    padding: 5px 20px;
+    margin-right: 10px;
+     border-radius: 10%;
+}
+.fill{
+    background-color: #FF7168;
+}
+
+  
+/** info **/
+
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 950px;
+}
+
+.info{
+    width: 500px;
+}
+
+.picture{
+    display:flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    top: 20px;
+}
+
+
+/** list **/  
+.listExp>li{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+  
+.listExp>li:nth-child(1) ul{
+    border-color: #e7b04b
+}
+
+.listExp>li:nth-child(2) ul{
+    border-color: #FFDE9E
+}
+
+.listExp li ul{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: solid 4px white
+}
+
+.listExp li h3{
+    font-weight: bold;
+}
+
+@media (max-width:1200px){
+    .container{
+      width: 100%;
+    }
+  }
+  
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+}
