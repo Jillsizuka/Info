@@ -75,8 +75,6 @@ hr{
 }
 
 .picture{
-    display:flex;
-    flex:auto;
     max-width: 201px;
     height: 250px;
     position: relative;
