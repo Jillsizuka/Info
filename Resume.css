@@ -71,13 +71,13 @@ hr{
 }
 
 .info{
-    width: 500px;
+    width: 549px;
 }
 
 .picture{
     display:flex;
     flex:auto;
-    max-width: 250px;
+    max-width: 201px;
     height: 250px;
     position: relative;
     left: 0;
