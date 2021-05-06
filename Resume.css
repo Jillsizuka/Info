@@ -112,10 +112,13 @@ hr{
     .container{
       width: 100%;
     }
-  }
+}
   
 @media (max-width:600px){
     .container{
+        width: 100%;
+    }
+    .container.box.picture{
         width: 100%;
     }
 }
